@@ -1,19 +1,38 @@
-import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export default function Page() {
   return (
-    <div className="flex min-h-svh p-6">
-      <div className="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
-        <div>
-          <h1 className="font-medium">Project ready!</h1>
-          <p>You may now add components and start building.</p>
-          <p>We&apos;ve already added the button component for you.</p>
-          <Button className="mt-2">Button</Button>
+    <main className="mx-auto max-w-xl px-6 py-12 md:py-16">
+      <section>
+        <div className="flex items-center gap-3.5">
+          <Image
+            src="/avatar.jpg"
+            alt="Fizz"
+            width={48}
+            height={48}
+            priority
+            className="size-12 rounded-lg outline outline-1 -outline-offset-1 outline-border"
+          />
+
+          <div>
+            <h1 className="text-2xl font-medium tracking-tight text-foreground">
+              Fizz
+            </h1>
+
+            <p className="mt-0.5 text-[15px] leading-6 text-fg-secondary">
+              <span className="inline-flex items-center gap-1.5">
+                {/* <span aria-hidden>🇬🇧</span> */}
+                {/* <span>UK</span> */}
+              </span>
+              15 years old
+            </p>
+          </div>
         </div>
-        <div className="font-mono text-xs text-muted-foreground">
-          (Press <kbd>d</kbd> to toggle dark mode)
-        </div>
-      </div>
-    </div>
-  )
+
+        <p className="mt-5 max-w-lg text-[17px] leading-7 text-fg-secondary">
+          Software is fun. Breaking it is even more fun, hopefully I remember to write about the stuff I break on here.
+        </p>
+      </section>
+    </main>
+  ) 
 }
