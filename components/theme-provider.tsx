@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import { flushSync } from "react-dom"
 import { ThemeProvider as NextThemesProvider, useTheme } from "next-themes"
 
 function ThemeProvider({
@@ -55,7 +56,16 @@ function ThemeHotkey() {
         return
       }
 
-      setTheme(resolvedTheme === "dark" ? "light" : "dark")
+      const next = resolvedTheme === "dark" ? "light" : "dark"
+
+      if (!document.startViewTransition) {
+        setTheme(next)
+        return
+      }
+
+      document.startViewTransition(() => {
+        flushSync(() => setTheme(next))
+      })
     }
 
     window.addEventListener("keydown", onKeyDown)
