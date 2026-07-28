@@ -27,7 +27,7 @@ export default function Page() {
           </div>
 
           <div>
-            <h1 className="text-2xl font-medium tracking-tight text-foreground">
+            <h1 className="text-balance text-2xl font-medium tracking-tight text-foreground">
               Fizz
             </h1>
 
@@ -37,9 +37,10 @@ export default function Page() {
           </div>
         </div>
 
-        <p className="mt-5 max-w-lg text-[17px] leading-7 text-fg-secondary">
-          Software is fun. Breaking it is even more fun, hopefully I remember to
-          write about the stuff I break on here.
+        <p className="mt-5 max-w-lg text-[17px] leading-7 text-pretty text-fg-secondary">
+          Software is fun. Breaking it is even more fun,{" "}
+          <strong className="font-medium text-foreground">hopefully</strong> I
+          remember to write about the stuff I break on here.
         </p>
       </section>
     </main>
