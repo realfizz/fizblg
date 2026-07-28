@@ -41,11 +41,8 @@
   --color-foreground: var(--foreground);
   --color-background: var(--background);
 
-  --color-fg-secondary: var(--fg-secondary);
   --color-fg-tertiary: var(--fg-tertiary);
-  --color-surface-hover: var(--surface-hover);
-  --color-brand: var(--brand);
-  --color-brand-foreground: var(--brand-foreground);
+  --color-image-outline: var(--image-outline);
 
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.7);
@@ -85,12 +82,8 @@
   --input: oklch(0 0 0 / 8%);
   --ring: oklch(0.624 0.14 49.6);
 
-  --fg-secondary: oklch(0.499 0.005 106.6);
   --fg-tertiary: oklch(0.685 0.006 106.6);
-  --surface-hover: oklch(0 0 0 / 3%);
-
-  --brand: oklch(0.624 0.14 49.6);
-  --brand-foreground: oklch(1 0 0);
+  --image-outline: oklch(0 0 0 / 0.1);
 
   --chart-1: oklch(0.73 0.136 55.5);
   --chart-2: oklch(0.624 0.14 49.6);
@@ -138,12 +131,8 @@
   --input: oklch(1 0 0 / 12%);
   --ring: oklch(0.73 0.136 55.5);
 
-  --fg-secondary: oklch(0.714 0.007 106.6);
   --fg-tertiary: oklch(0.54 0.008 106.7);
-  --surface-hover: oklch(1 0 0 / 3.5%);
-
-  --brand: oklch(0.73 0.136 55.5);
-  --brand-foreground: oklch(0.163 0.002 106.6);
+  --image-outline: oklch(1 0 0 / 0.1);
 
   --chart-1: oklch(0.73 0.136 55.5);
   --chart-2: oklch(0.788 0.116 60.7);
