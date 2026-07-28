@@ -1,8 +1,6 @@
 import Image from "next/image"
 
-import { SocialLinks } from "./social-links"
-
-function Hero() {
+function HeroSection() {
   return (
     <section>
       <div className="flex items-center gap-3.5">
@@ -38,12 +36,8 @@ function Hero() {
         <strong className="font-medium text-foreground">hopefully</strong> I
         remember to write about the stuff I break on here.
       </p>
-
-      <div className="mt-6">
-        <SocialLinks />
-      </div>
     </section>
   )
 }
 
-export { Hero }
+export { HeroSection }

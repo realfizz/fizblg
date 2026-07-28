@@ -8,25 +8,11 @@ import { cn } from "@/lib/utils"
 
 export const metadata: Metadata = {
   title: "Fizz",
-  description:
-    "Software is fun. Breaking it is even more fun — notes on the stuff I break.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
       { url: "/favicon.png", type: "image/png", sizes: "32x32" },
     ],
-  },
-  openGraph: {
-    title: "Fizz",
-    description:
-      "Software is fun. Breaking it is even more fun — notes on the stuff I break.",
-    type: "website",
-  },
-  twitter: {
-    card: "summary",
-    title: "Fizz",
-    description:
-      "Software is fun. Breaking it is even more fun — notes on the stuff I break.",
   },
 }
 
