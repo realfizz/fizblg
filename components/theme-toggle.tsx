@@ -16,7 +16,7 @@ function ThemeToggle({ className }: { className?: string }) {
       aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"}
       aria-pressed={isDark}
       className={cn(
-        "text-fg-tertiary hover:bg-transparent hover:text-fg-secondary",
+        "text-fg-tertiary hover:bg-transparent hover:text-muted-foreground",
         className
       )}
     >

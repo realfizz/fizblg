@@ -29,7 +29,7 @@ function LinksSection() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label={label}
-            className="relative rounded-control text-fg-tertiary transition-[color,transform] duration-150 ease-out hover:text-fg-secondary focus-visible:text-fg-secondary focus-visible:ring-[3px] focus-visible:ring-ring/50 active:scale-[0.96] after:absolute after:top-1/2 after:left-1/2 after:size-8 after:-translate-x-1/2 after:-translate-y-1/2 after:content-['']"
+            className="relative rounded-control text-fg-tertiary transition-[color,transform] duration-150 ease-out hover:text-muted-foreground focus-visible:text-muted-foreground focus-visible:ring-[3px] focus-visible:ring-ring/50 active:scale-[0.96] after:absolute after:top-1/2 after:left-1/2 after:size-8 after:-translate-x-1/2 after:-translate-y-1/2 after:content-['']"
           >
             <Icon className="block" />
           </a>

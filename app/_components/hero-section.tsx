@@ -27,11 +27,13 @@ function HeroSection() {
             Fizz
           </h1>
 
-          <p className="mt-0.5 text-body-sm text-fg-secondary">15 years old</p>
+          <p className="mt-0.5 text-sm leading-6 text-muted-foreground">
+            15 years old
+          </p>
         </div>
       </div>
 
-      <p className="mt-5 max-w-lg text-body text-pretty text-fg-secondary">
+      <p className="mt-5 max-w-lg text-base leading-7 text-pretty text-muted-foreground">
         Software is fun. Breaking it is even more fun,{" "}
         <strong className="font-medium text-foreground">hopefully</strong> I
         remember to write about the stuff I break on here.
