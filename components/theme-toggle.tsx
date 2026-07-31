@@ -20,7 +20,7 @@ function ThemeToggle({ className }: { className?: string }) {
         className
       )}
     >
-      <span aria-hidden className="size-2 rounded-full bg-current" />
+      <span aria-hidden className="size-2.5 rounded-full bg-current" />
     </Button>
   )
 }
